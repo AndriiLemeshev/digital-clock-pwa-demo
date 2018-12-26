@@ -1,0 +1,69 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.7775ed9bce5fe0f9bdfd.js",
+        "/polyfills.20ab2d163684112c2aba.js",
+        "/runtime.ec2944dd8b20ec099bf3.js",
+        "/styles.3283bf00173043ffee8c.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/Rationale-Regular.ttf",
+        "/assets/icons/icon-144-144.png",
+        "/assets/icons/icon-192-192.png",
+        "/assets/icons/icon-48-48.png",
+        "/assets/icons/icon-512-512.png",
+        "/assets/icons/icon-72-72.png",
+        "/assets/icons/icon-96-96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/Rationale-Regular.ttf": "fe9d08c34c12e4977b94e95976c1282dc94cdd0b",
+    "/assets/icons/icon-144-144.png": "0fe5aaea04da109469f6793c9705ae4a6609973c",
+    "/assets/icons/icon-192-192.png": "4d63c131707d0e42365eda8320d327a73bc94129",
+    "/assets/icons/icon-48-48.png": "f0376ffa58707970b3fe6500fadeae9c81b53a97",
+    "/assets/icons/icon-512-512.png": "79948612a1a697ca2d6c7188b7d911d7c384e4dd",
+    "/assets/icons/icon-72-72.png": "13fd11b189485bfe20b7bda522d4d6f3fec4b1cc",
+    "/assets/icons/icon-96-96.png": "823849c4320a44b448f8716f7df87e25ba357ac2",
+    "/favicon.ico": "269d28b6e51801a106e80583025e4b0db686e64a",
+    "/index.html": "86aae2b0d685121ae75a7f95ef7295df275fc379",
+    "/main.7775ed9bce5fe0f9bdfd.js": "2f0950d9ee605301ffaa7088a23621eba77f11b1",
+    "/polyfills.20ab2d163684112c2aba.js": "f5c688c6cdf730d54759e30839fbd417dbe38e31",
+    "/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.3283bf00173043ffee8c.css": "c7b9c90baba45508a90f6302d8291925db03ebc7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
