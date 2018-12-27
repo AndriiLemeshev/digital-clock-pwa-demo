@@ -4,8 +4,8 @@
   "theme_color": "#333333",
   "background_color": "#f5f5f5",
   "display": "standalone",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/digital-clock-pwa-demo/",
+  "start_url": "/digital-clock-pwa-demo/",
   "icons": [
     {
       "src": "assets/icons/icon-48x48.png",
